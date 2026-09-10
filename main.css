@@ -1,0 +1,393 @@
+/*----------------------------------------------------------------------------
+	main.css
+
+	this css-file contains all definitions, that are independend from the
+	colorschemes.
+
+	(c) Schlund + Partner AG
+
+
+	----------------------------------------------------------------------
+	Modified and extended by Barti Bartman for the Sports-Template
+
+	This CSS-File uses the original "Tanteks Box Modell Hack"
+	http://www.tantek.com/CSS/Examples/boxmodelhack.html
+
+	NOTE:
+	Older W3C CSS validators return errors when the voice-family property
+	is used in a 'screen' style sheet. This is an error in the W3C CSS
+	validator itself. The validator should report a warning, not an error,
+	when properties which are unsupported by a particular medium are used,
+	and this has been reported to the W3C:
+
+ ----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------
+ styles for specific classes and ids
+----------------------------------------------------------------------------*/
+
+
+/*-- global container ------------------------------------------------------*/
+
+#container {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+	width: 735px;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header	{
+	padding: 0;
+	margin: 0;
+	width: 735px;
+	height: 310px;
+	top: 0px;
+	left: 0px;
+}
+
+/*--- key visual -----------------------------------------------------------*/
+
+#key_visual {
+	position: absolute;
+	top: 45px;
+	left: 2px;
+	width: 730px;
+	height: 272px;
+}
+
+/*--- caption (as text or background image) --------------------------------*/
+
+#text_caption {
+	position: absolute;
+	top: 25px;
+	left: 0px;
+
+}
+
+#extra_div1 {
+	position: relative;
+	top: 5px;
+	left: 0px;
+	padding-left: 100px;
+	height: 20px;
+}
+
+#extra_div2 {
+	position: absolute;
+	top: 0px;
+	left: 2px;
+	width: 90px;
+	height: 34px;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+	width: 283px;
+	height: 56px;
+	position: absolute;
+	top: 265px;
+	left: 440px;
+}
+
+#left_column_container {
+	padding: 0;
+	margin-top: 25px;
+	float: left;
+	width: 190px;
+}	
+
+#sub_container1 {
+/*
+	height: 381px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 0;
+
+
+	border-width: thin;
+	border-style: solid;
+	border-color: #0000ff;
+*/		
+	width: 95px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+#sub_container2 {
+/*
+	border-width: thin;
+	border-style: solid;
+	border-color: #00ff00;
+*/
+
+	/*width: 735px;*/
+
+	float: right;
+	/*margin-top: 50px;*/
+	margin: 15px 15px 15px 0;
+	padding: 0;
+	width: 510px;
+}
+
+
+
+#extra_div4 {
+/*
+	border-width: thin;
+	border-style: solid;
+	border-color: #ff0000;
+	*/
+	height: 381px;
+	width: 95px;
+	margin: 0 0 0 10px;
+	padding: 0;
+
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+	margin: 0 0 0 8px;
+	padding: 0;	
+}
+
+#main_nav_list {
+	border: 0;	
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#main_nav_list li {
+	margin: 3px 0 2px 0;
+	padding: 0;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a {
+	
+	display: block;
+	text-align: left;
+	line-height: 24px;
+	height: 28px;
+	width: 165px;
+	padding-left: 12px;
+	overflow: hidden;
+}
+
+#main_nav_list a:hover {
+	text-decoration: none;
+}
+
+
+
+/*--- subnavigation --------------------------------------------------------*/
+
+.sub_nav_container {
+	z-index: 1;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	float: right;
+	width: 544px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	min-height: 23px;
+}
+
+.sub_nav_list {
+	position: relative;
+	width: 530px;
+	margin: 0;
+	padding: 0;
+	top: -2px;
+	left: 26px;
+	list-style-type: none;
+}
+
+.sub_nav_list li {
+	text-decoration: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_list a {
+	overflow: hidden;
+	width: 120px;
+	height: 23px;
+	line-height: 23px;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	float: left;	
+}
+
+.sub_nav_list a:hover {
+	background: transparent;
+	text-decoration: none;
+}
+
+a.sub_nav_active_item {
+	text-decoration: none;
+}
+
+/*--- content --------------------------------------------------------------*/
+
+#content_container {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	width: 510px;
+}
+
+#content_container table {
+	border-style: solid;
+	border-width: 1px;
+	border-spacing: 1px;
+}
+
+#content_container tr.odd {
+	font-size: 90%;
+}
+
+#content_container tr.even {
+	font-size: 90%;
+}
+
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+	margin: 0;
+	padding: 0;
+	width: 735px;
+	height: 79px;
+	clear: both;
+}
+
+#footer_text {
+	font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+	padding: 10px 0 0 0;
+	margin: 0 30px 0 30px;
+	text-align: center;
+	font-size: 80%;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container p {
+	margin: 5px 0 20px 0;
+	padding: 0;
+	font-size: 90%;
+	line-height: 1.2;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+	font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+	font-style: normal;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+#content_container h2 {
+	font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+	font-style: normal;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+#content_container h3 {
+	font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+#content_container a:hover {
+	text-decoration : none;
+}
+
+/*--- tables ---------------------------------------------------------------*/
+
+table {
+
+}
+
+th {
+}
+
+tr {
+}
+
+td {
+
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+fieldset {
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input {
+	border-style: solid;
+	border-width: 1px;
+}
+
+textarea {
+	border-style: solid;
+	border-width: 1px;
+}
+
+button {
+}
+
+label { 
+}
+
+select { 
+}
+
+option { 
+}
+
+/*--- lists ----------------------------------------------------------------*/
+
+ul { 
+}
+
+li { 
+}
+
+/*--------------------------------------------------------------------------*/

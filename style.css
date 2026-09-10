@@ -1,0 +1,160 @@
+
+div#logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer_text a {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  color: #686868;
+  text-decoration: underline; white-space: nowrap;
+}
+
+    
+#logo {
+   background: url(resources/_wsb_logo.jpg) no-repeat;
+}
+#key_visual {
+   background: url(images/dynamic/key_visual1.jpg) no-repeat;
+}
+#extra_div1 {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4D6C7F;
+}
+#main_nav_list a.main_nav_active_item {
+  background: url(images/dynamic/buttonset1/n1activeitem.gif) no-repeat;
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-position: top left;
+}
+#main_nav_list a.main_nav_item {
+  background: url(images/dynamic/buttonset1/n1.gif) no-repeat;
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-position: top left;
+}
+#main_nav_list a.main_nav_item:hover {
+  background: url(images/dynamic/buttonset1/n1hover.gif) no-repeat;
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-position: top left;
+}
+.sub_nav_list a.sub_nav_active_item {
+  background: url(images/dynamic/buttonset1/subnav1active.gif) no-repeat;
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0F3B48;
+}
+.sub_nav_list a.sub_nav_item {
+  background: url(images/dynamic/buttonset1/subnav1.gif) no-repeat;
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+.sub_nav_list a.sub_nav_item:hover {
+  background: url(images/dynamic/buttonset1/subnav1hover.gif) no-repeat;
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0F3B48;
+}
+#content_container h1 {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4D6C7F;
+}
+#content_container h2 {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4D6C7F;
+}
+#content_container h3 {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4D6C7F;
+}
+#content_container p, #content_container {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #686868;
+}
+#content_container a:link {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #4D6C7F;
+}
+#content_container a:visited {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #4D6C7F;
+}
+#content_container a:hover {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #4D6C7F;
+}
+#content_container a:active {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: underline;
+  text-decoration: none;
+  color: #4D6C7F;
+}
+#footer_text {
+  font-family: Verdana,Arial,Trebuchet MS,Tahoma,sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #686868;
+}
+
